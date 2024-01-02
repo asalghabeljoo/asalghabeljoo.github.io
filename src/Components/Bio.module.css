@@ -1,0 +1,29 @@
+.bio {
+  display: flex;
+  gap: 2rem;
+  max-width: 1080px;
+  margin: 2rem auto;
+  padding: 5rem 2rem;
+}
+
+.bio .profileImg {
+  width: 35vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% center;
+  background-image: url("../../public/images/profile.jpg");
+  flex-shrink: 0;
+}
+
+.bio .profileText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bio .profileText h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #dfa805;
+}

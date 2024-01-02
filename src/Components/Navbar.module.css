@@ -1,0 +1,32 @@
+.nav {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 3px transparent;
+  gap: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .active,
+.nav a:hover {
+  border-bottom: solid 3px #dfa805;
+}
+
+.nav a svg {
+  fill: white;
+  height: 1.5rem;
+  width: 1.5rem;
+}
